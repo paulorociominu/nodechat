@@ -1,7 +1,6 @@
 //nodechat
-//A simple chat app using express, angular and async.
+//A simple chat app using express and angular
 
-var async = require('async');
 var path = require('path');
 var express = require('express');
 var app = express();

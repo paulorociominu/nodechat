@@ -1,12 +1,11 @@
 {
   "name": "nodechat",
   "version": "0.0.1",
-  "description": "A simple chat sample using express, angular, socket.io and async",
+  "description": "A simple chat sample using express, angular and socket.io",
   "main": "app.js",
   "repository": "",
   "author": "cosmenavarro",
   "dependencies": {
-    "async": "^0.9.0",
     "express": "^4.8.4",
     "socket.io": "^1.0.6"
   }
