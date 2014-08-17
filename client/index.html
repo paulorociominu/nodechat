@@ -2,11 +2,11 @@
 <html lang="en" ng-app>
   <head>
     <title>nodechat</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <style>
-      body {
-        padding-top: 60px;
+    <style type="text/css">
+      nav {
+        margin-top: 10px;
       }
     </style>
     <script>
@@ -46,25 +46,24 @@
   </head>
   <body>
     <div class="container" ng-controller="ChatController">
-      <div class="navbar navbar-fixed-top navbar-inverse">
-        <div class="navbar-inner">
-          <div class="pull-right">
-            <a href="https://c9.io" class="brand">lol</a>
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">nodechat</a>
           </div>
-        </div>
-      </div>
-      <div class="page-header">
-        <h1>nodechat</h1>
-      </div>
+        </div><!-- /.container-fluid -->
+      </nav>
+
       <div class="row">
-        <div class="span3">
+        <div class="col-md-4">
           <ul class="nav nav-list well">
             <li class="nav-header">Local Users</li>
             <li ng-repeat="user in roster" ng-bind="user">
             </li>
           </ul>
         </div>
-        <div class="span9">
+        <div class="col-md-8">
           <table class="table table-striped table-bordered">
             <thead>
               <tr>

@@ -15,3 +15,7 @@ var sockets = [];
 
 //Creates a complete router for static files on a folder
 app.use(express.static(path.resolve(__dirname, 'client')));
+
+app.listen(3000, function() {
+  console.log('Listening at 3000...')
+});
