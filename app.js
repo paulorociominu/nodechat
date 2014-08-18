@@ -64,6 +64,4 @@ function updateRoster() {
   io.emit('roster', names);
 }
 
-http.listen(3000, function() {
-  console.log('Listening at 3000...')
-});
+module.exports = http;

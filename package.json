@@ -1,29 +1,12 @@
 {
-  "name": "nodechat",
+  "name": "chatster",
   "version": "0.0.1",
-  "description": "A simple chat sample using express, angular and socket.io",
-  "main": "app.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cosmenavarro/nodechat.git"
-  },
-  "author": "cosmenavarro",
-  "dependencies": {
-    "express": "^4.8.4",
-    "socket.io": "^1.0.6"
-  },
-  "devDependencies": {},
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./app.js"
+    "start": "node ./bin/www"
   },
-  "keywords": [
-    "chat",
-    "node"
-  ],
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cosmenavarro/nodechat/issues"
-  },
-  "homepage": "https://github.com/cosmenavarro/nodechat"
+  "dependencies": {
+    "express": "~4.2.0",
+    "socket.io": "^1.0.6"
+  }
 }
