@@ -1,4 +1,4 @@
 nodechat
 ========
 
-A node chat example using express, async, socket.io and angular.
+A node chat example using express, socket.io and angular.
